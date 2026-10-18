@@ -196,20 +196,14 @@ footer {
   header, footer {
     text-align: center;
   }
-  /* .project-item {
+  .project-item {
     flex-direction: row;
     align-items: flex-start;
-  } */
-
-  .edu-item, .content-wrap, .project-item, .project-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
+
   .edu-item {
-    width: 100vw;
+    width: 100%;
   }
   .project-item img {
     flex-shrink: 0;
@@ -240,7 +234,7 @@ footer {
     padding: 5px;
   }
   img {
-    width: 50vw;
+    width: 50%;
     height: auto;
   }
 
